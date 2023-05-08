@@ -1,0 +1,9 @@
+.workspace {
+	display: flex;
+	flex-direction: column;
+	width: calc(100vw / 2);
+	height: 100vh;
+	background-color: #fff;
+	display: inline-block;
+	vertical-align: top;
+}

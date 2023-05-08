@@ -1,4 +1,5 @@
 import React from 'react';
+import './Workspace.css';
 
 function Workspace() {
   return (

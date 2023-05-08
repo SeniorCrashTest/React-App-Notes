@@ -1,13 +1,15 @@
 import React from 'react';
-import Workspace from './components/Workspace';
-import Sidebar from './components/Sidebar';
+import Workspace from './components/workspace/Workspace';
+import Sidebar from './components/sidebar/Sidebar';
+import Header from './components/header/Header';
 
 
 function App() {
   return (
     <div className="app-container">
-      <Sidebar />
-      <Workspace />
+      <Header className="Header" />
+      <Sidebar className="sidebar" />
+      <Workspace className="workspace" />
     </div>
   );
 }
